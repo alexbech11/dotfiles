@@ -17,6 +17,13 @@ alias fixSound="sudo killall coreaudiod"
 # Git stash only for not added files
 alias gstk="git stash --keep-index"
 
+alias ytlf="yarn test:local:file"
+alias back="cd VCP/VCP-Backstage"
+alias front="cd VCP/VCP-showcase"
+alias pr-r='lm pr --label="QA pending"'
+alias pr-b='lm pr --label="Blocked"'
+alias pr-rb='lm pr --label="QA pending" --label="Blocked"'
+
 gbranch() {
     git fetch
 

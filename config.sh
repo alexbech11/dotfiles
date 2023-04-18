@@ -18,7 +18,6 @@ declare -a BREW_APPS=(
   ack
   awscli
   coreutils
-  ctags # Needed by https://marketplace.visualstudio.com/items?itemName=henriiik.vscode-perl
   docker
   fasd
   gh
@@ -40,6 +39,7 @@ declare -a BREW_APPS=(
   plenv
   vim
   yarn
+  pyenv
 )
 
 declare -a APT_GET_APPS=(
@@ -51,16 +51,16 @@ declare -a APT_GET_APPS=(
 )
 
 declare -a BREW_CASK_APPS=(
-  alfred
   docker
-  dropbox
   firefox
   intellij-idea-ce
   iterm2
   postman
-  rectangle
   spotify
+  leapp
   visual-studio-code
+  google-chrome
+  mongodb-compass
 )
 
 declare -a GEM_APPS=(
@@ -68,51 +68,68 @@ declare -a GEM_APPS=(
 
 declare -a PIP_APPS=(
   Pygments
+  databricks
+  databricks-cli
+  dbx
+  autopep8
 )
 
 declare -a YARN_APPS=(
-  mocha
+  
 )
 
 declare -a NPM_PACKAGES=(
   eslint # Needed to check js code on vscode
   npm-check-updates # Needed to check if the other packages are up to date
-  serverless@2.64.1
+  serverless@2.67.0
 )
 
 declare -a VSCODE_PACKAGES=(
-  akamud.vscode-theme-onedark
   alefragnani.project-manager
+  apollographql.vscode-apollo
   atlassian.atlascode
   brpaz.file-templates
   byi8220.indented-block-highlighting
   dbaeumer.vscode-eslint
   eamodio.gitlens
+  esbenp.prettier-vscode
   foxundermoon.shell-format
-  GabrielBB.vscode-lombok
   GitHub.vscode-pull-request-github
   Gruntfuggly.todo-tree
+  hediet.vscode-drawio
+  IronGeek.vscode-env
+  janisdd.vscode-edit-csv
   JerryHong.autofilename
   johnpapa.vscode-peacock
   Kaktus.perltidy-more
   mathiasfrohlich.Kotlin
-  hashicorp.terraform
+  mechatroner.rainbow-csv
   mohsen1.prettify-json
   ms-azuretools.vscode-docker
+  ms-python.isort
   ms-python.python
-  ms-vscode.atom-keybindings
-  ms-vsliveshare.vsliveshare-pack
+  ms-python.vscode-pylance
+  ms-toolsai.jupyter
+  ms-toolsai.jupyter-keymap
+  ms-toolsai.jupyter-renderers
+  ms-toolsai.vscode-jupyter-cell-tags
+  ms-toolsai.vscode-jupyter-slideshow
   nsfilho.tosnippet
-  pflannery.vscode-versionlens
   PKief.material-icon-theme
+  RandomFractalsInc.vscode-data-table
   redhat.java
+  redhat.vscode-commons
+  redhat.vscode-yaml
   RoscoP.ActiveFileInStatusBar
   secanis.jenkinsfile-support
   sfodje.perlcritic
+  VisualStudioExptTeam.intellicode-api-usage-examples
   VisualStudioExptTeam.vscodeintellicode
   vncz.vscode-apielements
   vscjava.vscode-java-debug
   vscjava.vscode-java-test
+  vscjava.vscode-lombok
+  yzhang.markdown-all-in-one
 )
 
 declare -a APP_STORE_APPS=(
