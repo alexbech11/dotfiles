@@ -3,11 +3,10 @@
 [core]
 	editor = /usr/bin/vim
 	excludesfile = ~/.gitignore
-	hooksPath = /Users/albert.vila/workspace/GIS-lm-build/git-hooks
 [user]
-	name = Albert Vila
-	email = albert.vila@gmail.com
-	signingkey = 352FC7C94F8FAE40
+	name = Alex Bech
+	email = alex.bech@launchmetrics.com
+	signingkey = B6A24BE7A97BCFA6
 [merge]
 	ff = false
 [pull]
